@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="th"><head><meta charset="utf-8"><meta property="land" content="th_variste_vsl"><meta name="referrer" content="no-referrer">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Variste</title>
+    
+    
+    
+    
+<link rel="stylesheet" href="./css/style.css"><link rel="stylesheet" href="./css/player.css"><link rel="icon" href="./images/product.png"><script src="https://code.jquery.com/jquery-3.7.1.min.js"></script><script src="./js/comments.js" defer></script><script src="./js/back.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    window.vitBack(window.location.href, true);
+  });
+  var phpClickId = "preview";
+  if (phpClickId && phpClickId !== 'no_Id') {
+    localStorage.setItem('clickid', phpClickId);
+  }
+</script>
+<script src="./js/video.js"></script>
+<script src="./js/preview.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <h1 class="core-title">
+                    แพทย์ถึงกับตกตะลึง: วิธีธรรมชาติวิธีนี้ช่วยกำจัดเส้นเลือดขอดได้ภายใน 24 ชั่วโมง!
+                </h1>
+            </div>
+        </header>
+        <main class="main">
+            <div class="container">
+                <span id="form-wrap"></span>
+                <section class="section-video">
+                    <div id="container_video">
+      <div id="play" onclick="playVideo()">
+        <div>
+          <h4>วิดีโอเริ่มแล้ว</h4>
+          <h4>กดเพื่อฟัง!</h4>
+        </div>
+      </div>
+      <div class="spinner-container">
+        <div class="spinner-sub-container">
+          <div class="loading">วิดีโอกำลังโหลด <span class="spinner"></span></div>
+        </div>
+      </div>
+
+      <video id="video" muted="" playsinline="" webkit-playsinline="" poster="./images/poster.jpg">
+        <source src="https://am.mediahostvtts.cc/18299%202.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div id="progress-container" style="width:100%;max-width:720px;margin:20px auto 0;background:#eee;height:10px"><div id="progress-bar" style="width:0%;height:100%;background:red"></div></div></section>
+                <section class="section-form">
+                    <div class="div-section-form">
+                        <form id="order" action="#" method="post" style="display:none">
+                            
+                            
+                            
+                            
+                            <input type="hidden" name="subid5" value="main_vsl_form"><input type="hidden" name="click_id" value="preview"><div id="formFb" class="formFb">
+                                <div class="formFb__container">
+                                    <p class="formFb__action formFb__text">
+                                        <b>รีบหน่อย!</b> ข้อเสนอโปรโมชั่นใกล้จะหมดแล้ว
+                                    </p>
+                                    <p class="formFb__counter formFb__text">
+                                        <b>อัปเดต:</b> เหลือเพียง
+                                        <span class="form-instock red">17</span>
+                                        ชิ้น <span class="js-current-date"></span>
+                                    </p>
+                                    <div class="formFb__img">
+                                        <img src="./images/product.png" alt="" loading="lazy">
+                                    </div>
+                                    <div class="formFb__price">
+                                        <p class="formFb__price--txt formFb__text">ส่วนลด 50%</p>
+                                        <span class="formFb__price--p">
+                                            <span class="oldPriceAndLabelForLandingInfoApi formFb__price--old">
+                                                <span class="price-old">฿ 1980</span>
+                                                <span class="currency"></span>
+                                            </span>
+                                            <span class="priceAndLabelForLandingInfoApi formFb__price--new">
+                                                <span class="price-new">฿ 990</span>
+                                                <span class="currency"></span>
+                                            </span>
+                                        </span>
+                                    </div>
+                                    <div class="formFb__timer">
+                                        <p class="formFb__text">เวลาที่เหลือ:</p>
+                                        <div class="timer" style="color: red">05:00</div>
+                                    </div>
+                                </div>
+                                <div class="formFb__inputs">
+                                    <label>ชื่อของคุณ:</label>
+                                    <input class="ss" name="name" placeholder="ชื่อ" required="required" autocomplete="name" type="text">
+                                </div>
+                                <div class="formFb__inputs">
+                                    <label>หมายเลขโทรศัพท์ของคุณ:</label>
+                                    <input class="pp" name="phone" placeholder="+66" required="required" inputmode="tel" autocomplete="tel" type="tel" minlength="8" maxlength="16">
+                                </div>
+                                <button class="formFb__btn" type="submit">
+                                    สั่งซื้อสินค้า
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </section>
+                <section class="section-coments">
+                    <div class="all-coments">
+                        <p class="text-all-coments">ความคิดเห็น</p>
+                        <hr>
+                        <div class="place-coment" style="flex-direction: column-reverse;">
+                            <div class="coment" style="display: flex;">
+                                <img class="ava-coment" src="./images/w1.jpg" alt="#" loading="lazy">
+                                <div class="info-coment">
+                                    <p class="name-coment">ศิรินยา วงศ์สกุล</p>
+                                    <p class="text-coment">
+                                        ขอบคุณสำหรับบทความนี้มากค่ะ
+                                        ช่วยให้ฉันเข้าใจอาการของเส้นเลือดขอด
+                                        และหาวิธีการรักษาที่เหมาะสมได้
+                                    </p>
+                                    <div class="all-buttons-coment">
+                                        <div class="btn-react-coment">
+                                            <p class="react-coment">ถูกใจ</p>
+                                            <p class="react-coment">ตอบกลับ</p>
+                                            <p>3 นาที</p>
+                                        </div>
+                                        <div class="btn-like-coment">
+                                            <img src="./images/likes.webp" alt="#" loading="lazy">
+                                            <p>9</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="coment" style="display: flex;">
+                                <img class="ava-coment" src="./images/w2.jpg" alt="#" loading="lazy">
+                                <div class="info-coment">
+                                    <p class="name-coment">ปวีณา ชัยวัฒน์</p>
+                                    <p class="text-coment">
+                                        ผลิตภัณฑ์นี้ใช้ได้ผลจริงค่ะ อาการเส้นเลือดขอดหายไป
+                                        รู้สึกดีขึ้นมาก ขอบคุณสำหรับคำแนะนำ!
+                                    </p>
+                                    <div class="all-buttons-coment">
+                                        <div class="btn-react-coment">
+                                            <p class="react-coment">ถูกใจ</p>
+                                            <p class="react-coment">ตอบกลับ</p>
+                                            <p>3 นาที</p>
+                                        </div>
+                                        <div class="btn-like-coment">
+                                            <img src="./images/likes.webp" alt="#" loading="lazy">
+                                            <p>11</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="coment" style="display: flex;">
+                                <img class="ava-coment" src="./images/w3.jpg" alt="#" loading="lazy">
+                                <div class="info-coment">
+                                    <p class="name-coment">กมลวรรณ สุขเกษม</p>
+                                    <p class="text-coment">
+                                        เคยลองใช้หลายอย่างแต่ไม่เห็นผล ผลิตภัณฑ์นี้ช่วยได้จริง
+                                        อาการเส้นเลือดขอดหายไปภายในหนึ่งสัปดาห์!
+                                    </p>
+                                    <div class="all-buttons-coment">
+                                        <div class="btn-react-coment">
+                                            <p class="react-coment">ถูกใจ</p>
+                                            <p class="react-coment">ตอบกลับ</p>
+                                            <p>3 นาที</p>
+                                        </div>
+                                        <div class="btn-like-coment">
+                                            <img src="./images/likes.webp" alt="#" loading="lazy">
+                                            <p>15</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="coment" style="display: flex;">
+                                <img class="ava-coment" src="./images/w4.jpg" alt="#" loading="lazy">
+                                <div class="info-coment">
+                                    <p class="name-coment">ณัฐพร รัตนากร</p>
+                                    <p class="text-coment">
+                                        ผลลัพธ์น่าทึ่งมากค่ะ รู้สึกดีขึ้น
+                                        ความไม่สบายจากเส้นเลือดขอดหายไป และกลับมามีพลังอีกครั้ง!
+                                    </p>
+                                    <div class="all-buttons-coment">
+                                        <div class="btn-react-coment">
+                                            <p class="react-coment">ถูกใจ</p>
+                                            <p class="react-coment">ตอบกลับ</p>
+                                            <p>3 นาที</p>
+                                        </div>
+                                        <div class="btn-like-coment">
+                                            <img src="./images/likes.webp" alt="#" loading="lazy">
+                                            <p>17</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="coment" style="display: flex;">
+                                <img class="ava-coment" src="./images/w5.jpg" alt="#" loading="lazy">
+                                <div class="info-coment">
+                                    <p class="name-coment">ชลธิชา พิพัฒน์</p>
+                                    <p class="text-coment">
+                                        เคยลองวิธีพื้นบ้านมาก่อนแต่ไม่ได้ผล
+                                        ผลิตภัณฑ์นี้ช่วยกำจัดเส้นเลือดขอดได้จริงในเวลาไม่นาน!
+                                    </p>
+                                    <div class="all-buttons-coment">
+                                        <div class="btn-react-coment">
+                                            <p class="react-coment">ถูกใจ</p>
+                                            <p class="react-coment">ตอบกลับ</p>
+                                            <p>2 นาที</p>
+                                        </div>
+                                        <div class="btn-like-coment">
+                                            <img src="./images/likes.webp" alt="#" loading="lazy">
+                                            <p>18</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="coment" style="display: flex;">
+                                <img class="ava-coment" src="./images/w6.jpg" alt="#" loading="lazy">
+                                <div class="info-coment">
+                                    <p class="name-coment">วราภรณ์ อินทร์ทอง</p>
+                                    <p class="text-coment">
+                                        ตอนอายุ 57 ปี เจออาการเส้นเลือดขอดรุนแรง
+                                        ผลิตภัณฑ์นี้ช่วยแก้ปัญหาได้ และไม่ต้องผ่าตัด!
+                                    </p>
+                                    <div class="all-buttons-coment">
+                                        <div class="btn-react-coment">
+                                            <p class="react-coment">ถูกใจ</p>
+                                            <p class="react-coment">ตอบกลับ</p>
+                                            <p>3 นาที</p>
+                                        </div>
+                                        <div class="btn-like-coment">
+                                            <img src="./images/likes.webp" alt="#" loading="lazy">
+                                            <p>22</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="coment" style="display: flex;">
+                                <img class="ava-coment" src="./images/w7.jpg" alt="#" loading="lazy">
+                                <div class="info-coment">
+                                    <p class="name-coment">พิมพ์ชนก แสงสุริยา</p>
+                                    <p class="text-coment">
+                                        ความเจ็บปวดและความไม่สบายจากเส้นเลือดขอดเป็นมานาน
+                                        หลังใช้ผลิตภัณฑ์นี้ อาการหายไป และกลับมามีพลังอีกครั้ง!
+                                    </p>
+                                    <div class="all-buttons-coment">
+                                        <div class="btn-react-coment">
+                                            <p class="react-coment">ถูกใจ</p>
+                                            <p class="react-coment">ตอบกลับ</p>
+                                            <p>2 นาที</p>
+                                        </div>
+                                        <div class="btn-like-coment">
+                                            <img src="./images/likes.webp" alt="#" loading="lazy">
+                                            <p>41</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="coment" style="display: flex;">
+                                <img class="ava-coment" src="./images/w8.jpg" alt="#" loading="lazy">
+                                <div class="info-coment">
+                                    <p class="name-coment">อรอนงค์ ศรีสมบูรณ์</p>
+                                    <p class="text-coment">
+                                        ต่อสู้กับเส้นเลือดขอดมาหลายปี ไม่มีอะไรช่วยได้
+                                        ผลิตภัณฑ์นี้ให้ผลลัพธ์จริง และตอนนี้รู้สึกแข็งแรงอีกครั้ง!
+                                    </p>
+                                    <div class="all-buttons-coment">
+                                        <div class="btn-react-coment">
+                                            <p class="react-coment">ถูกใจ</p>
+                                            <p class="react-coment">ตอบกลับ</p>
+                                            <p>2 นาที</p>
+                                        </div>
+                                        <div class="btn-like-coment">
+                                            <img src="./images/likes.webp" alt="#" loading="lazy">
+                                            <p>40</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="coment" style="display: flex;">
+                                <img class="ava-coment" src="./images/w9.jpg" alt="#" loading="lazy">
+                                <div class="info-coment">
+                                    <p class="name-coment">กัญญารัตน์ วัฒนา</p>
+                                    <p class="text-coment">
+                                        ตอนอายุ 47 ปี เริ่มมีปัญหาเส้นเลือดขอด
+                                        ผลิตภัณฑ์นี้ช่วยคืนความสบายและสุขภาพให้ฉันในเวลาไม่นาน!
+                                    </p>
+                                    <div class="all-buttons-coment">
+                                        <div class="btn-react-coment">
+                                            <p class="react-coment">ถูกใจ</p>
+                                            <p class="react-coment">ตอบกลับ</p>
+                                            <p>2 นาที</p>
+                                        </div>
+                                        <div class="btn-like-coment">
+                                            <img src="./images/likes.webp" alt="#" loading="lazy">
+                                            <p>47</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="coment" style="display: flex;">
+                                <img class="ava-coment" src="./images/w10.jpg" alt="#" loading="lazy">
+                                <div class="info-coment">
+                                    <p class="name-coment">สุภาวดี บุญส่ง</p>
+                                    <p class="text-coment">
+                                        ตอนอายุ 73 ปี คิดว่าไม่มีอะไรช่วยได้แล้ว
+                                        แต่ผลิตภัณฑ์นี้เหมือนปาฏิหาริย์
+                                        เส้นเลือดขอดเริ่มดีขึ้นจริง!
+                                    </p>
+                                    <div class="all-buttons-coment">
+                                        <div class="btn-react-coment">
+                                            <p class="react-coment">ถูกใจ</p>
+                                            <p class="react-coment">ตอบกลับ</p>
+                                            <p>2 นาที</p>
+                                        </div>
+                                        <div class="btn-like-coment">
+                                            <img src="./images/likes.webp" alt="#" loading="lazy">
+                                            <p>50</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+    
+    </body></html>

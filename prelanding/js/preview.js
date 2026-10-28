@@ -1,0 +1,1 @@
+window.sendBinomEvent=function(){};document.addEventListener('DOMContentLoaded',function(){document.querySelectorAll('form').forEach(function(f){f.addEventListener('submit',function(e){e.preventDefault();let m=f.querySelector('[role=status]');if(!m){m=document.createElement('p');m.setAttribute('role','status');f.append(m)}m.textContent='โหมดตัวอย่าง: ไม่ได้ส่งข้อมูล'})})});
